@@ -1,4 +1,4 @@
-package com.example.json_file;
+package com.example.componentes;
 
 import io.flutter.embedding.android.FlutterActivity;
 

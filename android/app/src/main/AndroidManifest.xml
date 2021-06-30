@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.json_file">
+    package="com.example.componentes">
    <application
-        android:label="json_file"
+        android:label="componentes"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
