@@ -134,13 +134,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "flutter_widgets",
+      "name": "alert_widget",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-07-01T00:09:10.850550Z",
+  "generated": "2021-07-01T06:22:55.730577Z",
   "generator": "pub",
   "generatorVersion": "2.13.3"
 }

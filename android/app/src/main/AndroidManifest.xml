@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_widgets">
+    package="com.example.alert_widget">
    <application
-        android:label="flutter_widgets"
+        android:label="alert_widget"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

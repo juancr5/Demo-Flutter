@@ -1,6 +1,6 @@
-# flutter_widgets
+# alert_widget
 
-Widgets de Flutter
+Flutter Alert Widget
 
 ## Getting Started
 
