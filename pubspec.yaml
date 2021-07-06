@@ -1,5 +1,5 @@
-name: alert_widget
-description: Flutter Alert Widget
+name: sliders_widget
+description: Sliders en Flutter
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -24,8 +24,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_localizations:
-      sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

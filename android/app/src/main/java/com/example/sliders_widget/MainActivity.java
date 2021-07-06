@@ -1,4 +1,4 @@
-package com.example.alert_widget;
+package com.example.sliders_widget;
 
 import io.flutter.embedding.android.FlutterActivity;
 
