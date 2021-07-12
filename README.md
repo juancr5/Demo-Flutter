@@ -1,6 +1,7 @@
-# sliders_widget
+# Demo_flutter_button_counter
 
-Sliders en Flutter
+Demo del contador de flutter
+
 
 ## Getting Started
 

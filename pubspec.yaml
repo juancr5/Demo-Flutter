@@ -1,5 +1,5 @@
-name: sliders_widget
-description: Sliders en Flutter
+name: hello_world
+description: Hola Mundo en Flutter
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -24,10 +24,13 @@ dependencies:
   flutter:
     sdk: flutter
 
+  #A package containing the most ~5000 used English words and some utility functions.
+  english_words: ^4.0.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+
 
 dev_dependencies:
   flutter_test:
@@ -45,8 +48,7 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-    - assets/
+  # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
