@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sliders_widget/slider_page.dart';
+import 'package:sliders_widget/lista_page.dart';
+import 'package:sliders_widget/lista_page_complete.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SliderPage(),
+      home: ListaPage(),
+      //home: ListaPageComplete(),
     );
   }
 }
