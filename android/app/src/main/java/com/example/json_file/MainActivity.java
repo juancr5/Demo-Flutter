@@ -1,4 +1,4 @@
-package com.example.hello_world;
+package com.example.json_file;
 
 import io.flutter.embedding.android.FlutterActivity;
 

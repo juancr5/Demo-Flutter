@@ -14,6 +14,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "change_app_package_name",
+      "rootUri": "file:///C:/Users/juancr5/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/change_app_package_name-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "characters",
       "rootUri": "file:///C:/Users/juancr5/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0",
       "packageUri": "lib/",
@@ -40,12 +46,6 @@
     {
       "name": "cupertino_icons",
       "rootUri": "file:///C:/Users/juancr5/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "english_words",
-      "rootUri": "file:///C:/Users/juancr5/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/english_words-4.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -140,13 +140,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "hello_world",
+      "name": "json_file",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-07-12T16:03:24.442457Z",
+  "generated": "2021-07-13T06:15:39.415813Z",
   "generator": "pub",
-  "generatorVersion": "2.13.3"
+  "generatorVersion": "2.13.4"
 }
