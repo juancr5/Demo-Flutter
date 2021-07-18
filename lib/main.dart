@@ -1,36 +1,22 @@
-import 'package:json_file/pages/default_page.dart';
-import 'package:json_file/routes/routes.dart';
 import 'package:flutter/material.dart';
+import 'package:radio_list/radio_list.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Componentes APP',
-        debugShowCheckedModeBanner: false, //Quitar el logo de debug en la esquina superior
+      title: 'Componentes APP',
+      debugShowCheckedModeBanner: false, //Quitar el logo de debug en la esquina superior
 
-        //Tema de la Aplicacion
-        theme: ThemeData(
-          primarySwatch: Colors.teal,
-        ),
-
-        //home: HomePage()
-
-        initialRoute: '/',
-        //Importar las rutas de la aplicacion desde routes/routes.dart
-        routes: getApplicationRoutes(),
-
-        //Pagina por defecto al np cargar una ruta
-        //Cualquier pagina que no este dentro del archivo rutas cargara
-        onGenerateRoute: (RouteSettings settings) {
-          print('Ruta Llamada: ${settings.name}');
-          return MaterialPageRoute(
-              builder: (BuildContext context ) => DefaultPage()
-          );
-        },
-
+      //Tema de la Aplicacion
+      theme: ThemeData(
+        primarySwatch: Colors.teal,
+      ),
+      home: Radio_list(),
     );
   }
 }
