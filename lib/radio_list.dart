@@ -74,7 +74,47 @@ class _Radio_listState extends State<Radio_list> {
                 textStyle: TextStyle(fontSize: 15)),
             onPressed: () {},
             child: const Text('SUBMIT'),
-          )
+          ),
+
+          const SizedBox(height: 20),
+
+          // Contenedor en gradiente
+          ClipRRect(
+            borderRadius: BorderRadius.circular(4),
+            child: Stack(
+              children: <Widget>[
+                Positioned.fill(
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: <Color>[
+                          Color(0xFF0D47A1),
+                          Color(0xFF1976D2),
+                          Color(0xFF42A5F5),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+
+                //Texto del Boton
+                TextButton(
+                  style: TextButton.styleFrom(
+                    padding: const EdgeInsets.all(16.0),
+                    primary: Colors.white,
+                    textStyle: const TextStyle(fontSize: 20),
+                  ),
+                  onPressed: () {},
+                  child: const Text('Input'),
+                ),
+              ],
+            ),
+          ),
+
+
+
+
+
 
         ],
       ),
