@@ -1,4 +1,4 @@
-package com.example.radio_list;
+package com.example.json_file;
 
 import io.flutter.embedding.android.FlutterActivity;
 

@@ -4,7 +4,7 @@ enum FavoriteMethod { flutter, kotlin, swift, reactNative }
 
 class FormValidation extends StatefulWidget {
 
-  final String title = 'Sign Up';
+  final String title = 'Validacion del Formulario';
 
   @override
   _FormValidationState createState() => _FormValidationState();
@@ -17,6 +17,7 @@ class _FormValidationState extends State<FormValidation> {
   late TextEditingController _phoneController;
   late TextEditingController _passwordController;
   final _formKey = GlobalKey<FormState>();
+
   @override
   void initState() {
     super.initState();
@@ -25,6 +26,7 @@ class _FormValidationState extends State<FormValidation> {
     _phoneController = TextEditingController();
     _passwordController = TextEditingController();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -122,8 +124,8 @@ class _FormValidationState extends State<FormValidation> {
                     }
                     showDialog(context: context,
                       builder: (BuildContext context) => AlertDialog(
-                          content: Text('Luce Bien'),
-                        ),
+                        content: Text('Luce Bien'),
+                      ),
                     );
                   },
 
